@@ -1,0 +1,9 @@
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		String abc="高橋";
+		System.out.println(abc+"さんんん");
+	}
+
+}

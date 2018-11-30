@@ -1,0 +1,12 @@
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		String a ="山田";
+
+		if(a.equals("山田")){
+			System.out.println(a+"さんん");
+		}
+	}
+
+}
