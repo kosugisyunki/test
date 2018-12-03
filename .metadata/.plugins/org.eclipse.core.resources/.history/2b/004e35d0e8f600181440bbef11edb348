@@ -1,0 +1,11 @@
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		for(int a=10; a>1; a-=3){
+			System.out.println("★");
+		}
+
+	}
+
+}
