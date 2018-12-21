@@ -1,0 +1,7 @@
+package jp.co.internous.action;
+
+public class SmartPhone implements Mp3Player {
+
+
+
+}
