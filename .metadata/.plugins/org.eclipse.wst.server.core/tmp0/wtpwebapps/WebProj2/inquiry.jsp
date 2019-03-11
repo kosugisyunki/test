@@ -19,7 +19,7 @@
 		</select>
 		<br>
 		お問い合わせ内容:
-		<s:textarea mame="boby"/>
+		<s:textarea name="body"/>
 		<br><s:submit value="登録"/>
 	</s:form>
 

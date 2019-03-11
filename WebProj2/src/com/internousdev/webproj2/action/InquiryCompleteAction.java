@@ -7,12 +7,12 @@ public class InquiryCompleteAction extends ActionSupport {
 
 	private String name;
 	private String qtype;
-	private String boby;
+	private String body;
 
 	public String execute(){
 		String ret=ERROR;
 		InquiryCompleteDAO dao=new InquiryCompleteDAO();
-		int count=dao.insert(name,qtype,boby);
+		int count=dao.insert(name,qtype,body);
 		if(count>0){
 			ret=SUCCESS;
 		}
@@ -30,11 +30,11 @@ public class InquiryCompleteAction extends ActionSupport {
 	public void setQtype(String qtype){
 		this.qtype=qtype;
 	}
-	public String getBoby(){
-		return boby;
+	public String getBody(){
+		return body;
 	}
-	public void setBody(String boby){
-		this.boby=boby;
+	public void setBody(String body){
+		this.body=body;
 	}
 
 }
