@@ -1,0 +1,9 @@
+127.0.0.1 - - [15/Mar/2019:20:26:43 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [15/Mar/2019:20:26:46 +0900] "GET /WebProj3/ HTTP/1.1" 200 804
+0:0:0:0:0:0:0:1 - - [15/Mar/2019:20:26:57 +0900] "POST /WebProj3/WelcomeAction.action;jsessionid=E7F07D8DCCE459820914CC3B7A8B6AF1 HTTP/1.1" 200 865
+0:0:0:0:0:0:0:1 - - [15/Mar/2019:20:27:02 +0900] "POST /WebProj3/LoginAction.action HTTP/1.1" 200 199
+0:0:0:0:0:0:0:1 - - [15/Mar/2019:20:27:38 +0900] "POST /WebProj3/LoginAction.action HTTP/1.1" 200 146
+0:0:0:0:0:0:0:1 - - [15/Mar/2019:20:28:51 +0900] "GET /WebProj3/ HTTP/1.1" 200 716
+0:0:0:0:0:0:0:1 - - [15/Mar/2019:20:28:52 +0900] "POST /WebProj3/WelcomeAction.action HTTP/1.1" 200 865
+0:0:0:0:0:0:0:1 - - [15/Mar/2019:20:28:58 +0900] "POST /WebProj3/LoginAction.action HTTP/1.1" 200 199
+0:0:0:0:0:0:0:1 - - [15/Mar/2019:20:29:02 +0900] "POST /WebProj3/LoginAction.action HTTP/1.1" 200 146
