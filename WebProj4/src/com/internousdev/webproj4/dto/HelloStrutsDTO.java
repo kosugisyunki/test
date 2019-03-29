@@ -7,7 +7,8 @@ public class HelloStrutsDTO {
 	private String password;
 	private String result;
 
-	public int getUserId;{
+	public int getUserId(){
+		return userId;
 
 }
 
