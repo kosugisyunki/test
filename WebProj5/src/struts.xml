@@ -13,7 +13,7 @@ method="execute">
 <result name="error">helloStrutsError.jsp</result>
 </action>
 
-<action name="WelcomeAction" class="com.internousdev.webproj5.action.welcomeAction" method="execute">
+<action name="WelcomeAction" class="com.internousdev.webproj5.action.WelcomeAction" method="execute">
 <result name="success">welcome.jsp</result>
 </action>
 
@@ -22,9 +22,11 @@ method="execute">
 <result name="error">loginError.jsp</result>
 </action>
 
-
-
+<action name="InquiryAction" class="com.internousdev.webproj5.action.InquiryAction" method="execute">
+<result name="success">inquiry.jsp</result>
+</action>
 
 </package>
+
 
 </struts>
