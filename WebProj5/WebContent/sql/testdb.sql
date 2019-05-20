@@ -1,6 +1,6 @@
-drop database if exists testdb_kosugi;
-create database testdb_kosugi;
-use testdb_kosugi;
+drop database if exists testdb_kosugi2;
+create database testdb_kosugi2;
+use testdb_kosugi2;
 
 
 create table users(

@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" type="text/css/style.css">
+<link rel="stylesheet" type="text/css" href="./css/style.css">
 
 
 <title>お問い合わせ　受付完了</title>
@@ -23,7 +23,7 @@
 		<s:iterator value="#session.inquiryDTOList">
 			<tr>
 
-			 <td><s;property value="name"/></td>
+			 <td><s:property value="name"/></td>
 
 			 <s:if test='qtype=="company"'>
 			  <td>会社について</td>
