@@ -41,14 +41,14 @@ public class TestDAO {
 
 	public List<LoginDTO>select(String username,String password){
 		DBConnector db=new DBConnector();
-		Connection connection=db.getConnection();
+		Connection con=db.getConnection();
 
 		String sql="select*from users where user_name=? and password=?";
 		try{
 			PreparedStatement ps=con.prepareStatement(sql);
 			ps.setString(1, username);
 			ps.setString(2, password);
-			ResultSet re=ps.executeQuery();
+			ResultSet rs=ps.executeQuery();
 
 			while(rs.next()){
 				LoginDTO dto=new LoginDTO();

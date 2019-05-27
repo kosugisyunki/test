@@ -25,7 +25,7 @@
   <th>USERNAME</th>
   <th>PASSWORD</th>
 </tr>
-<s:iterator value="#session.LoginDTOList">
+<s:iterator value="#session.loginDTOList">
 <tr>
   <td><s:property value="username"/></td>
   <td><s:property value="password"/></td>
