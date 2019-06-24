@@ -1,4 +1,0 @@
-127.0.0.1 - - [15/Apr/2019:20:20:53 +0900] "GET / HTTP/1.1" 404 1019
-0:0:0:0:0:0:0:1 - - [15/Apr/2019:20:20:56 +0900] "GET /WebProj5/ HTTP/1.1" 200 470
-0:0:0:0:0:0:0:1 - - [15/Apr/2019:20:21:06 +0900] "POST /WebProj5/HelloStrutsAction.action;jsessionid=623424222E792299A1FEB1151CA0462C HTTP/1.1" 200 678
-0:0:0:0:0:0:0:1 - - [15/Apr/2019:20:21:06 +0900] "GET /WebProj5/css/style.css HTTP/1.1" 200 1240

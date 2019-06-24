@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="リソース名 &apos;WebProj4/WebContent/inguiryComplete.jsp&apos; を &apos;inquiryComplete.jsp&apos; に変更します" description="リソース &apos;inguiryComplete.jsp&apos; の名前変更" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/inguiryComplete.jsp" name="inquiryComplete.jsp" stamp="1554460113258" updateReferences="true"/>&#x0A;<refactoring comment="&apos;style.css&apos; を &apos;css&apos; に移動" description="&apos;style.css&apos; を &apos;css&apos; に移動" destination="WebContent/css" element1="WebContent/style.css" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1554460329565" updateReferences="true"/>
-</session>
