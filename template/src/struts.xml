@@ -20,6 +20,10 @@
 		<result name="error">home.jsp</result>
 	</action>
 
+	<action name="UserCreateAction" class="com.internousdev.template.action.UserCreateAction" method="execute">
+		<result name="success">userCreate.jsp</result>
+	</action>
+
 
 
 
