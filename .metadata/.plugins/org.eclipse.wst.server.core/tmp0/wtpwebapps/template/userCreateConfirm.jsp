@@ -58,9 +58,57 @@
 		<div id="pr">
 		</div>
 	</div>
+	<div id="main">
+		<div id="top">
+			<p>UserCreateConfirm</p>
+		</div>
+		<div>
+			<h3>登録する内容は以下でよろしいですか。</h3>
+			<table>
+				<s:form action="UserCreateCompleteAction">
+			<tr id="box">
+				<td>
+					<label>ログインＩＤ:</label>
+				</td>
+				<td>
+					<s:property value="loginUserId" escape="false"/>
+				</td>
+			</tr>
+			<tr id="box">
+				<td>
+					<label>ログインＰＡＳＳ:</label>
+				</td>
+				<td>
+					<s:property value="loginPassword" escape="false"/>
+				</td>
+			</tr>
+						<tr id="box">
+							<td>
+								<label>ユーザー名:</label>
+							</td>
+							<td>
+								<s:property value="UserName" escape="false"/>
+							</td>
+						</tr>
+						<tr>
+							<td>
+								<s:submit value="完了"/>
+							</td>
+						</tr>
+					</s:form>
+			</table>
+		</div>
+	</div>
+	<div id="footer">
+		<div id="pr">
+		</div>
+	</div>
 
 </body>
 </html>
+
+
+
 
 
 
