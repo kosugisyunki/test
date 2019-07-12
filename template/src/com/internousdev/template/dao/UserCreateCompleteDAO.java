@@ -2,10 +2,8 @@ package com.internousdev.template.dao;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-
 import com.internousdev.template.util.DBConnector;
-
-import freemarker.template.utility.DateUtil;
+import com.internousdev.template.util.DateUtil;
 
 public class UserCreateCompleteDAO {
 	private DateUtil dateUtil=new DateUtil();
